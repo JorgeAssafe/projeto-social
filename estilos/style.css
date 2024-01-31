@@ -29,7 +29,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:  url(../imagens/frame-iphone.png) no-repeat/cover;
+    background:  url(../imagens/frame-iphone.png) no-repeat;
 }
 
 #tela{
@@ -38,4 +38,20 @@ main{
     left: 22px;
     width: 269px;
     height: 472px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.408);
+    transition: border 0.2s;
+}
+
+#redes-sociais img:hover{
+    border: 1px solid rgb(157, 157, 157);
 }
